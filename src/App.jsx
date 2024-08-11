@@ -24,6 +24,9 @@ const equipos = [
 	{ equipo: "Granada", img: "granada" },
 	{ equipo: "Almería", img: "almeria" },
 	{ equipo: "girona", img: "girona" },
+	{ equipo: "Espanyol", img: "espanyol" },
+	{ equipo: "Leganés", img: "leganes" },
+	{ equipo: "Valladolid", img: "valladolid" },
 	
 ];
 

@@ -96,6 +96,7 @@ main{
 }
 
 button.close{
+	color: #000;
 	background-color: transparent;
 	width: 35px;
 	height: 35px;
