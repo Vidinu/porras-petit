@@ -64,18 +64,21 @@ main{
 	align-self: flex-start;  
 	border-radius: 8px;
 	max-width: 800px;
+	max-height: 80vh;
 	background-color: rgb(253, 248, 241);
 	padding: 20px 30px;
 	box-sizing: border-box;
-	margin-top: 50px;
-	
+	margin: auto;
+	overflow: auto;	
+	scrollbar-color: darkred #bada5500;
 }
 
 .modal-content .escudos{
 	display: grid;
-	grid-template-columns: repeat(5, auto);
+	grid-template-columns: repeat(6, auto);
 	grid-gap: 10px;	
 }
+
 
 .modal-content .escudo{
 	border-radius: 20px;
