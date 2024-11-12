@@ -125,6 +125,7 @@ canvas{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 20px;
 }
 
 .equiposElegidos img{
@@ -140,4 +141,45 @@ canvas{
 	flex-direction: column;
 	align-items: center;
 	gap: 40px;
+}
+
+.jornada{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	font-size: 20px;
+	margin-top: 40px;
+}
+.jornada label{
+	font-weight: 700;
+}
+.jornada select{
+	font-size: 20px;
+	margin: 0;
+}
+
+.jornada option{
+	font-size: 16px;
+	line-height: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+.fecha{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.fecha label{
+	font-weight: 600;
+}
+
+.flex-center-center{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }

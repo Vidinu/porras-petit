@@ -20,7 +20,7 @@ export const ModalEquipos = ( { show, equipos, modalHandler, equipoHandler } ) =
 						equipos.map( element => {
 							return(
 
-								<img onClick={ ()=>{ equipoHandler(element.img); modalHandler(); } } key={element.equipo} className="escudo" src={ "escudos/" + element.img + ".png" }/>
+								<img onClick={ ()=>{ equipoHandler(element); modalHandler(); } } key={element.equipo} className="escudo" src={ "escudos/" + element.img + ".png" }/>
 
 								)
 						})
