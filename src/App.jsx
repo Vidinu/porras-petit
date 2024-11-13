@@ -187,7 +187,9 @@ function App() {
 
 			}
 
-			if( fecha_partido1!=0 ){
+			if( fecha_partido1!=0 && fecha_partido1.toString()!="Invalid Date" ){
+
+				console.log(fecha_partido1);
 
 				let nombre_dia = fecha_partido1.toLocaleDateString("es-ES", { weekday: 'long' });
 
@@ -203,7 +205,7 @@ function App() {
 
 			}
 
-			if( fecha_partido2!=0 ){
+			if( fecha_partido2!=0 && fecha_partido2.toString()!="Invalid Date"  ){
 
 				let nombre_dia = fecha_partido2.toLocaleDateString("es-ES", { weekday: 'long' });
 				drawText(ctx, "Día: " + fecha_partido2.getDate() + "/" + (fecha_partido2.getMonth()+1) + " - " + nombre_dia.charAt(0).toUpperCase() + nombre_dia.slice(1), 50, "verdana", 2100, 950, "center");
